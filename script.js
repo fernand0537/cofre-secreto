@@ -1,4 +1,4 @@
-let senhaCofre = "969";
+let senhaCofre = "537";
 let tentativas = 0;
 
 function executarAcao(acao) {
@@ -24,7 +24,7 @@ function executarAcao(acao) {
 
     else if (acao === "dica") {
         document.getElementById("mensagem").innerText =
-            "Dica: a senha começa com 9.";
+            "Dica: a senha começa com 5.";
     }
 
     else if (acao === "limpar") {
