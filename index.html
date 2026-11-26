@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Cofre Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa-cofre">
+        <h1>&#128274 Cofre Secreto</h1>
+        <p>Descubra a senha numérica de 3 digitos!</p>
+
+        <div class="inputs">
+            <input type="number" id="num0" min="0" max="9" placeholder="0">
+            <input type="number" id="num1" min="0" max="9" placeholder="0">
+            <input type="number" id="num2" min="0" max="9" placeholder="0">
+        </div>
+
+        <div class="botoes">
+            <button onclick="executarAcao('jogar')">Tentar Abrir</button>
+            <button onclick="executarAcao('dica')" class="btn-dica">Ver Dica</button>
+            <button onclick="executarAcao('limpar')" class="btn-limpar">Limpar</button>
+        </div>
+
+        <div id="mensagem" class="tela-resultado">
+            Aguardando tentativa...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
